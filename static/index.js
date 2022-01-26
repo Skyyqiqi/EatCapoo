@@ -401,11 +401,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
         // TODO 添加反馈
         if (mode === MODE_ENDLESS) return '';
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
-        return '人？';
+        if (score <= 49) return '猫猫虫好伤心';
+        if (score <= 99) return '猫猫虫好可怜';
+        if (score <= 149) return '猫猫虫要闹了';
+        if (score <= 199) return '噢噢噢噢噢噢';
+        return '猫猫虫の赞！！！！！！';
     }
 
     function toStr(obj) {
